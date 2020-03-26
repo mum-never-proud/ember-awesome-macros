@@ -28,3 +28,4 @@ export { default as sort } from './sort';
 export { default as uniqBy } from './uniq-by';
 export { default as uniq } from './uniq';
 export { default as without } from './without';
+export { default as sortBy } from './sort-by';
