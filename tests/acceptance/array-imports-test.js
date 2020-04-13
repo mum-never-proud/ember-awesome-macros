@@ -27,8 +27,8 @@ import array, {
   rejectBy,
   reverse,
   slice,
-  sort,
   sortBy,
+  sort,
   uniqBy,
   uniq,
   without,
@@ -59,8 +59,8 @@ import _reduce from 'ember-awesome-macros/array/reduce';
 import _rejectBy from 'ember-awesome-macros/array/reject-by';
 import _reverse from 'ember-awesome-macros/array/reverse';
 import _slice from 'ember-awesome-macros/array/slice';
-import _sort from 'ember-awesome-macros/array/sort';
 import _sortBy from 'ember-awesome-macros/array/sort-by';
+import _sort from 'ember-awesome-macros/array/sort';
 import _uniqBy from 'ember-awesome-macros/array/uniq-by';
 import _uniq from 'ember-awesome-macros/array/uniq';
 import _without from 'ember-awesome-macros/array/without';
@@ -95,8 +95,8 @@ module('Acceptance | array imports', function() {
     assert.ok(array.rejectBy);
     assert.ok(array.reverse);
     assert.ok(array.slice);
-    assert.ok(array.sort);
     assert.ok(array.sortBy);
+    assert.ok(array.sort);
     assert.ok(array.uniqBy);
     assert.ok(array.uniq);
     assert.ok(array.without);
@@ -131,8 +131,8 @@ module('Acceptance | array imports', function() {
     assert.ok(rejectBy);
     assert.ok(reverse);
     assert.ok(slice);
-    assert.ok(sort);
     assert.ok(sortBy);
+    assert.ok(sort);
     assert.ok(uniqBy);
     assert.ok(uniq);
     assert.ok(without);
@@ -167,8 +167,8 @@ module('Acceptance | array imports', function() {
     assert.ok(_rejectBy);
     assert.ok(_reverse);
     assert.ok(_slice);
-    assert.ok(_sort);
     assert.ok(_sortBy);
+    assert.ok(_sort);
     assert.ok(_uniqBy);
     assert.ok(_uniq);
     assert.ok(_without);
