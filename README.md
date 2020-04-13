@@ -567,8 +567,8 @@ value2: array.slice('array', difference('array.length', 1)) // [3]
 sorts the given array of objects by key
 ```js
 array1: Ember.A([{ key: 'abc' }, { key: 'xyz' }]),
-value1: array.sort('array1', 'key'), // [{ key: 'abc' }, { key: 'xyz' }]
-value2: array.sort('array1', 'key:desc'), // [{ key: 'xyz' }, { key: 'abc' }]
+value1: array.sortBy('array1', 'key'), // [{ key: 'abc' }, { key: 'xyz' }]
+value2: array.sortBy('array1', 'key:desc'), // [{ key: 'xyz' }, { key: 'abc' }]
 ```
 
 ##### `array.sort`
